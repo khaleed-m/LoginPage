@@ -9,7 +9,7 @@ def handle_login():
     password = password_input.get()
 
     if email=='SRM@gmail.com' and password =='1234':
-        messagebox.showinfo('Yayy',"Login Successful")
+        messagebox.showinfo('Yayy',"Login Successful!")
     else:
         messagebox.showerror("ERROR",'login Failed')
 
